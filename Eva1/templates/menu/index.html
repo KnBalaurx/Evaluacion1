@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static '/css/style1.css' %}">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Bienvenidos a Mi Pagina</h1>
+    <div id="img">
+        <img src="{%static '/img/breaking.jpg' %}" onclick="location.host='a/' ">
+        <img src="{%static '/img/stranger.jpg' %}" onclick="location.host='b/' ">
+        <img src="{%static '/img/hora.jpg' %}" onclick="location.host='c/' ">
+    </div>
+</body>
+</html>
